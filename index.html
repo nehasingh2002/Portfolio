@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="wrapper1">
+    <header id="html">
+        <div class="nav-bar">
+            <h1>Neha.</h1>
+        </div> 
+        <div class="nav-links">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./index.html#about">About</a></li>
+                <li><a href="./index.html#projects">Projects</a></li>
+                <li><a href="./index.html#contact">Contacts</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="homeContainer">
+        <div class="side-bar">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/Neha_Singh_2002" class="fa fa-twitter"></a>
+            <a href="https://www.linkedin.com/in/neha-singh-205789216/" class="fa fa-linkedin"></a>
+            <a href="https://github.com/nehasingh2002" class="fa fa-github"></a>
+        </div>
+        <div class="title">
+            <h1>Hello!<br>I'm Neha...</h1>
+            <h2>I'm a Frontend Developer</h2>
+            <div class="button">
+                <button class="btn"><a href="https://noidainstituteofengtech-my.sharepoint.com/personal/0201cse109_niet_co_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F0201cse109%5Fniet%5Fco%5Fin%2FDocuments%2FResume%20of%20Neha%20Singh%20%20%281%29%2Epdf&parent=%2Fpersonal%2F0201cse109%5Fniet%5Fco%5Fin%2FDocuments&ga=1">Download Resume</a></button>
+            </div>
+        </div>
+    </div>
+   </div>
+   <div class="wrapper2" id="about">
+    <h1>ABOUT</h1>
+    <section>
+        <div class="about-content">
+            <p>I'm Neha Singh and I'm currently pursuing B.Tech in Computer Science Engineering from NIET, Greater Noida. 
+                I'm in my pre-final year now. During my B.Tech journey I have learned 
+                lot about computer Science,and worked upon programming languages like Java, JavaScript etc and prepared 
+                myself for further participating in internships and other roles. Right now my only goal is to achieve 
+                some work experience that will enhance my background and also put some weight on my resume that uniquely 
+                represents me. I really need a great mentorship that not only enhance my skills or knowledge but also 
+                teach me how things work in IT sector and how I can involve myself to understand it from every aspects. 
+                I ensure you that I will look forward to put my best efforts in this journey.
+            </p>
+            <button class="contact-btn"><a href="./index.html#contact">Contact Me</a></button>
+        </div>
+        <div class="skills-content">
+            <h2>Skills</h2>
+            <div class="skills-col">
+                    <div class="col">
+                        <img src="images/html5.png">
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="col">
+                        <img src="images/css3.png">
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="col">
+                        <img src="images/javascript.png">
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="col">
+                        <img src="images/java.png">
+                        <h3>Java</h3>
+                    </div>
+                    <div class="col">
+                        <img src="images/react.png">
+                        <h3>React JS</h3>
+                    </div>
+            </div>
+        </div>
+    </section>
+    </div>
+   </div>
+   <div class="wrapper3" id="projects">
+    <h1>POJECTS</h1>
+    <section>
+        <div class="project-content">
+            <div class="project-col">
+                <img class="ems" src="images/EMS.jpg">
+                <h2>Employee Management System</h2>
+                <button><a href="https://github.com/nehasingh2002/Employee-Management-System">Check it out</a></button>
+            </div>
+            <div class="project-col">
+                <img class="ext" src="images/extension.jpg">
+                <h2>Chrome Extension</h2>
+                <button><a href="https://github.com/nehasingh2002/Chrome-Extension">Check it out</a></button>
+            </div>
+            <div class="project-col">
+                <img class="weather" src="images/Weather.jpg">
+                <h2>Weather App</h2>
+                <button><a href="https://github.com/nehasingh2002/Weather-App">Check it out</a></button>
+            </div>
+            <div class="project-col">
+                <img class="plp" src="images/Product-landing-page.png">
+                <h2>Product landing Page</h2>
+                <button><a href="https://github.com/nehasingh2002/product-landing-page">Check it out</a></button>
+            </div>
+        </div>   
+    </section>
+   </div>
+   <div class="wrapper4" id="contact">
+    <h1>CONTACT</h1>
+    <section>
+        <div class="contact-content">
+            <div class="contact-side">
+                <img src="images/neha_image.jpeg">
+            <p>Hey!, this is Neha Singh<br>
+            I'm a Frontend Developer. If you liked my work and interested in hiring me, please contact me and kindly fill the form.</p>
+            </div>
+            <form class="contact" name="RegForm" onsubmit="return ContactForm()" method="post" action="https://formspree.io/f/xgejorzk">
+                <div class="contact-col">
+                    <label>Name</label><br>
+                    <input type="text" name="name" placeholder="Enter Your Name"><br>
+                </div>
+                <div class="contact-col">
+                    <label>Email-Id</label><br>
+                    <input type="text" name="email" placeholder="Enter Your Email-Id"><br>
+                </div>
+                <div class="contact-col">
+                    <label>Message</label><br>
+                    <textarea name="message" placeholder="Write something.."></textarea>
+                </div>
+                <button value="send" name="Submit">Submit</button>
+                <p id="my-form-status"></p>
+            </form>
+        </div>
+    </section>
+   </div>
+   <div class="wrapper5">
+    <footer>
+        <div class="footer-col1">
+            <h2>Neha.</h2>
+            <div class="col1">
+                <img src="images/phone.png">
+                <p>7388180441</p>
+            </div>
+            <div class="col1">
+                <img src="images/gmail.png">
+                <p>nehasingh.june2000@gmail.com</p>
+            </div>
+            <div class="col1">
+                <img src="images/address.png">
+                <p>Greater Noida, Uttar Pradesh, India</p>
+            </div>
+        </div>
+        <div class="footer-col2">
+            <h2>Social</h2>
+            <div class="social-icons">
+                <a href="#"><img src="images/facebook.png"></a>
+                <a href="https://github.com/nehasingh2002"><img src="images/github.png"></a>
+                <a href="https://www.linkedin.com/in/neha-singh-205789216/"><img src="images/linkedin.png"></a>
+                <a href="https://twitter.com/Neha_Singh_2002"><img src="images/twitter.png"></a>
+            </div>
+        </div>
+    </footer>
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>
