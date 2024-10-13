@@ -7,7 +7,7 @@ body{
 }
 /*Its wrapper 1 for Home page*/
 .wrapper1{
-    background-image: url("images/bkg-img.jpg");
+    background-image: url("Assets/wallpaper-6.gif");
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 12rem;
@@ -67,12 +67,12 @@ ul li a:hover{
     text-align: center;
     text-decoration: none;
     box-sizing: border-box ;
-    border: black solid;
+    border: white solid;
 }
-.fa-facebook {
+/* .fa-facebook {
     background: #284b98;
     color: white;
-}
+} */
 .fa-twitter {
     background: #55ACEE;
     color: white;
@@ -82,15 +82,20 @@ ul li a:hover{
     color: white;
 }
 .fa-github {
-    background: #77a9ee;
+    background: #333;
     color: white;
 }
 .title{
     margin: auto;
-    width: 50%;
-    padding: 10px;
+    width: 70%;
+    padding-top: 150px;
 }
-.title h1,h2{
+.title h1{
+    font-size: 50px;
+    color: white;
+}
+.title h2{
+    font-size: 30px;
     color: white;
 }
 .button{
@@ -206,8 +211,9 @@ section{
     padding-top: 30px;
 }
 .project-col{
-    display: fle;
+    display: flex;
     flex-wrap: wrap;
+    align-items: end;
     text-align: center;
     justify-content: center;
     padding-right: 20px;
@@ -216,24 +222,11 @@ section{
 .project-col img{
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 20px;
-    width: 100% ;
+    width: 80% ;
 }
-.ems{
-    padding-top: 60px;
-}
-.ext{
-    padding-top: 90px;
-}
-.plp{
-    padding-top: 130px;
-    margin-bottom: 16px;
-}
-
 
 .project-col h2{
     text-align: center;
-    padding-bottom: 20px;
     color: black;
 }
 .project-col button{
@@ -368,10 +361,11 @@ footer{
     font-size: 15px;
 }
 .footer-col2{
-    padding-left: 20px;
-    width: 50%;
+    padding: 50px 20px 0px 20px ;
+    /* width: 50%; */
 }
 .footer-col2 h2{
+    color: #fdfcfc;
    text-align: center;
    padding-bottom: 20px;
 }
